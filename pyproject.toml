@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "learning-python"
+version = "0.1.0"
+description = "Study examples from 'Learning Python' by Mark Lutz - interactive Jupyter notebooks covering fundamental to advanced Python concepts"
+authors = ["Leandro Mana <leandromana@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+numpy = "^2.4.2"
+pandas = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.0"
+ipykernel = "^6.0"
+jupyterlab = "^4.0"
+pytest = "^8.0"
+ruff = "^0.4"
+mypy = "^1.0"
+pre-commit = "^4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_return_any = true
+warn_unused_ignores = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+exclude = ["tests/"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
+filterwarnings = [
+    "ignore::DeprecationWarning",
+    "ignore::PendingDeprecationWarning",
+]

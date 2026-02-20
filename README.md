@@ -94,6 +94,11 @@ src/
 ├── chapter_28/                # Command-Line Interfaces
 ├── chapter_29/                # Date, Time, and Scheduling
 ├── chapter_30/                # XML, HTML, and Data Formats
+├── chapter_31/                # String Methods and Formatting
+├── chapter_32/                # Numeric Computing
+├── chapter_33/                # OS and System Interaction
+├── chapter_34/                # Email and Data Encoding
+├── chapter_35/                # Advanced Python Patterns
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -136,6 +141,11 @@ tests/
 | 28 | Command-Line Interfaces | argparse, subcommands, environment variables | Done |
 | 29 | Date, Time, and Scheduling | datetime, zoneinfo, timedelta, calendar, formatting | Done |
 | 30 | XML, HTML, and Data Formats | xml.etree, html.parser, configparser, struct | Done |
+| 31 | String Methods and Formatting | f-strings, str methods, string module, difflib, textwrap | Done |
+| 32 | Numeric Computing | math, decimal, fractions, random, statistics | Done |
+| 33 | OS and System Interaction | os, shutil, tempfile, platform, subprocess | Done |
+| 34 | Email and Data Encoding | email.message, base64, quopri, mimetypes, binascii | Done |
+| 35 | Advanced Python Patterns | Descriptors, `__slots__`, weakrefs, ABCs, copy protocol | Done |
 
 ## Running Notebooks
 

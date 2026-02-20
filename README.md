@@ -1,5 +1,13 @@
 # Learning Python - 5th Edition (Full Notes)
 
+[![CI](https://github.com/leandro-mana/learning-python-full-notes/actions/workflows/ci.yml/badge.svg)](https://github.com/leandro-mana/learning-python-full-notes/actions/workflows/ci.yml)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
+[![Code Style: Ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://docs.astral.sh/ruff/)
+[![Type Checked: mypy](https://img.shields.io/badge/type%20checked-mypy-blue.svg)](https://mypy-lang.org/)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Notebooks](https://img.shields.io/badge/notebooks-123-orange.svg)](src/)
+[![Tests](https://img.shields.io/badge/tests-467-brightgreen.svg)](tests/)
+
 Study notes and examples inspired by **"Learning Python: Powerful Object-Oriented Programming, 5th Edition"** by Mark Lutz (O'Reilly) — an independent companion resource covering core Python concepts through interactive Jupyter notebooks with original code examples.
 
 ## Requirements

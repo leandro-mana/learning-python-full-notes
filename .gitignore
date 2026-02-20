@@ -56,6 +56,9 @@ cover/
 # Sphinx documentation
 docs/_build/
 
+# Book PDFs and reference material
+docs/
+
 # PyBuilder
 .pybuilder/
 target/

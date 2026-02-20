@@ -69,6 +69,11 @@ src/
 ├── chapter_03/                # OOP Fundamentals
 ├── chapter_04/                # Advanced OOP - Classes and Inheritance
 ├── chapter_05/                # Decorators, Generators, and Context Managers
+├── chapter_06/                # Exceptions and Error Handling
+├── chapter_07/                # Modules and Packages
+├── chapter_08/                # File I/O and Data Serialization
+├── chapter_09/                # Iterators, Generators, and Comprehensions
+├── chapter_10/                # Concurrency, Testing, and Best Practices
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -85,7 +90,12 @@ tests/
 | 2 | Type System and Variables | Type annotations, scope, namespaces, mypy | Done |
 | 3 | OOP Fundamentals | Classes, methods, inheritance, encapsulation | Done |
 | 4 | Advanced OOP | Multiple inheritance, MRO, metaclasses, descriptors | Pending |
-| 5 | Decorators, Generators, Context Managers | Decorators, yield, with statement | In Progress |
+| 5 | Decorators, Generators, Context Managers | Decorators, yield, with statement | Done |
+| 6 | Exceptions and Error Handling | Exception hierarchy, custom exceptions, EAFP, retry patterns | Done |
+| 7 | Modules and Packages | Imports, packages, `__init__.py`, lazy imports, plugins | Done |
+| 8 | File I/O and Data Serialization | File ops, pathlib, JSON, CSV, pickle | Done |
+| 9 | Iterators and Comprehensions | Iterator protocol, advanced comprehensions, itertools | Done |
+| 10 | Concurrency, Testing, Best Practices | Threading, asyncio, pytest, profiling | Done |
 
 ## Running Notebooks
 

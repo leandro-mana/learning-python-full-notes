@@ -74,6 +74,11 @@ src/
 ├── chapter_08/                # File I/O and Data Serialization
 ├── chapter_09/                # Iterators, Generators, and Comprehensions
 ├── chapter_10/                # Concurrency, Testing, and Best Practices
+├── chapter_11/                # Unicode, Text, and Bytes
+├── chapter_12/                # Functional Programming
+├── chapter_13/                # Regular Expressions and Text Processing
+├── chapter_14/                # Data Structures and Collections
+├── chapter_15/                # Design Patterns and Pythonic Code
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -96,6 +101,11 @@ tests/
 | 8 | File I/O and Data Serialization | File ops, pathlib, JSON, CSV, pickle | Done |
 | 9 | Iterators and Comprehensions | Iterator protocol, advanced comprehensions, itertools | Done |
 | 10 | Concurrency, Testing, Best Practices | Threading, asyncio, pytest, profiling | Done |
+| 11 | Unicode, Text, and Bytes | str vs bytes, encodings, Unicode normalization | Done |
+| 12 | Functional Programming | Closures, functools, operator module, composition | Done |
+| 13 | Regular Expressions | re module, groups, lookahead, practical text processing | Done |
+| 14 | Data Structures and Collections | Counter, defaultdict, deque, dataclasses, enums | Done |
+| 15 | Design Patterns and Pythonic Code | SOLID, creational/structural/behavioral patterns | Done |
 
 ## Running Notebooks
 

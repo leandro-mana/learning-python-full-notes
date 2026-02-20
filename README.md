@@ -89,7 +89,7 @@ tests/
 | 1 | Getting Started | Core syntax, data types, control flow, functions | Done |
 | 2 | Type System and Variables | Type annotations, scope, namespaces, mypy | Done |
 | 3 | OOP Fundamentals | Classes, methods, inheritance, encapsulation | Done |
-| 4 | Advanced OOP | Multiple inheritance, MRO, metaclasses, descriptors | Pending |
+| 4 | Advanced OOP | Multiple inheritance, MRO, metaclasses, descriptors | Done |
 | 5 | Decorators, Generators, Context Managers | Decorators, yield, with statement | Done |
 | 6 | Exceptions and Error Handling | Exception hierarchy, custom exceptions, EAFP, retry patterns | Done |
 | 7 | Modules and Packages | Imports, packages, `__init__.py`, lazy imports, plugins | Done |

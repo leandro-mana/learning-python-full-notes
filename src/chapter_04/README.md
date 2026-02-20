@@ -20,7 +20,7 @@ poetry run jupyter lab src/chapter_04/
 | **02_metaclasses.ipynb** | `type()`, `__new__` vs `__init__`, metaclass patterns (singleton, registry, validation) |
 | **03_descriptors_and_abcs.ipynb** | Descriptor protocol (`__get__`, `__set__`, `__delete__`), ABC, `@abstractmethod`, mixins |
 
-**Status:** Notebooks pending - chapter structure defined, content to be created.
+**Status:** Complete.
 
 ## Key Concepts
 

@@ -89,6 +89,11 @@ src/
 ├── chapter_23/                # Security and Cryptography
 ├── chapter_24/                # Metaprogramming
 ├── chapter_25/                # Python Ecosystem and Best Practices
+├── chapter_26/                # Async Programming
+├── chapter_27/                # Multiprocessing and Parallelism
+├── chapter_28/                # Command-Line Interfaces
+├── chapter_29/                # Date, Time, and Scheduling
+├── chapter_30/                # XML, HTML, and Data Formats
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -126,6 +131,11 @@ tests/
 | 23 | Security and Cryptography | hashlib, hmac, secrets, input validation, secure coding | Done |
 | 24 | Metaprogramming | Dynamic attributes, class decorators, introspection, codegen | Done |
 | 25 | Python Ecosystem and Best Practices | Code style, linting, testing patterns, CI/CD, project org | Done |
+| 26 | Async Programming | asyncio, async/await, tasks, gather, semaphores | Done |
+| 27 | Multiprocessing and Parallelism | multiprocessing, Pool, ProcessPoolExecutor, IPC | Done |
+| 28 | Command-Line Interfaces | argparse, subcommands, environment variables | Done |
+| 29 | Date, Time, and Scheduling | datetime, zoneinfo, timedelta, calendar, formatting | Done |
+| 30 | XML, HTML, and Data Formats | xml.etree, html.parser, configparser, struct | Done |
 
 ## Running Notebooks
 

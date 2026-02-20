@@ -1,6 +1,6 @@
 # Learning Python - 5th Edition (Full Notes)
 
-Study notes and examples from **"Learning Python: Powerful Object-Oriented Programming, 5th Edition"** by Mark Lutz (O'Reilly) - the definitive guide to the Python language, covering fundamental to advanced concepts through interactive Jupyter notebooks.
+Study notes and examples inspired by **"Learning Python: Powerful Object-Oriented Programming, 5th Edition"** by Mark Lutz (O'Reilly) — an independent companion resource covering core Python concepts through interactive Jupyter notebooks with original code examples.
 
 ## Requirements
 
@@ -79,6 +79,11 @@ src/
 ├── chapter_13/                # Regular Expressions and Text Processing
 ├── chapter_14/                # Data Structures and Collections
 ├── chapter_15/                # Design Patterns and Pythonic Code
+├── chapter_16/                # Type Hints and Static Analysis
+├── chapter_17/                # Networking and Protocols
+├── chapter_18/                # Database Access
+├── chapter_19/                # Packaging and Distribution
+├── chapter_20/                # Python Internals and Performance
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -106,6 +111,11 @@ tests/
 | 13 | Regular Expressions | re module, groups, lookahead, practical text processing | Done |
 | 14 | Data Structures and Collections | Counter, defaultdict, deque, dataclasses, enums | Done |
 | 15 | Design Patterns and Pythonic Code | SOLID, creational/structural/behavioral patterns | Done |
+| 16 | Type Hints and Static Analysis | typing module, generics, Protocol, overload, mypy | Done |
+| 17 | Networking and Protocols | Sockets, HTTP, urllib, asyncio networking | Done |
+| 18 | Database Access | sqlite3, DB-API, transactions, row factories | Done |
+| 19 | Packaging and Distribution | venv, pyproject.toml, wheels, entry points, PyPI | Done |
+| 20 | Python Internals and Performance | Memory model, GIL, profiling, bytecode, optimization | Done |
 
 ## Running Notebooks
 

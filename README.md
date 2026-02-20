@@ -99,6 +99,12 @@ src/
 ├── chapter_33/                # OS and System Interaction
 ├── chapter_34/                # Email and Data Encoding
 ├── chapter_35/                # Advanced Python Patterns
+├── chapter_36/                # Advanced Testing
+├── chapter_37/                # Abstract Syntax Trees
+├── chapter_38/                # Memory Management
+├── chapter_39/                # C Interoperability
+├── chapter_40/                # Import System Internals
+├── chapter_41/                # Concurrency Patterns
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -146,6 +152,12 @@ tests/
 | 33 | OS and System Interaction | os, shutil, tempfile, platform, subprocess | Done |
 | 34 | Email and Data Encoding | email.message, base64, quopri, mimetypes, binascii | Done |
 | 35 | Advanced Python Patterns | Descriptors, `__slots__`, weakrefs, ABCs, copy protocol | Done |
+| 36 | Advanced Testing | pytest fixtures, parametrize, markers, unittest.mock, test patterns | Done |
+| 37 | Abstract Syntax Trees | ast module, NodeVisitor, NodeTransformer, compile, eval, exec | Done |
+| 38 | Memory Management | Reference counting, gc module, tracemalloc, finalize, optimization | Done |
+| 39 | C Interoperability | ctypes, structures, callbacks, array module, memoryview | Done |
+| 40 | Import System Internals | importlib, import hooks, sys.meta_path, pkgutil, metadata | Done |
+| 41 | Concurrency Patterns | Threading sync, concurrent.futures, Queue, producer-consumer | Done |
 
 ## Running Notebooks
 

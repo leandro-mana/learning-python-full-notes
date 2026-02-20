@@ -84,6 +84,11 @@ src/
 ├── chapter_18/                # Database Access
 ├── chapter_19/                # Packaging and Distribution
 ├── chapter_20/                # Python Internals and Performance
+├── chapter_21/                # Logging and Debugging
+├── chapter_22/                # Web Development Fundamentals
+├── chapter_23/                # Security and Cryptography
+├── chapter_24/                # Metaprogramming
+├── chapter_25/                # Python Ecosystem and Best Practices
 └── ...
 tests/
 ├── conftest.py                # Shared pytest fixtures
@@ -116,6 +121,11 @@ tests/
 | 18 | Database Access | sqlite3, DB-API, transactions, row factories | Done |
 | 19 | Packaging and Distribution | venv, pyproject.toml, wheels, entry points, PyPI | Done |
 | 20 | Python Internals and Performance | Memory model, GIL, profiling, bytecode, optimization | Done |
+| 21 | Logging and Debugging | logging module, handlers, formatters, pdb, traceback | Done |
+| 22 | Web Development Fundamentals | WSGI, HTTP servers, routing, templates, REST APIs | Done |
+| 23 | Security and Cryptography | hashlib, hmac, secrets, input validation, secure coding | Done |
+| 24 | Metaprogramming | Dynamic attributes, class decorators, introspection, codegen | Done |
+| 25 | Python Ecosystem and Best Practices | Code style, linting, testing patterns, CI/CD, project org | Done |
 
 ## Running Notebooks
 

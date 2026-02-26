@@ -47,10 +47,10 @@ make pre-commit-install
 make list-chapters
 
 # List notebooks in a chapter
-make list-notebooks CHAPTER=chapter_01
+make list-notebooks CH=01
 
 # Open a chapter's notebooks in Jupyter Lab
-make jupyter CHAPTER=chapter_01
+make jupyter CH=01
 ```
 
 ## Prerequisites
@@ -173,7 +173,7 @@ Jupyter notebooks are the primary learning material:
 
 ```bash
 # Open a specific chapter in Jupyter Lab
-make jupyter CHAPTER=chapter_01
+make jupyter CH=01
 
 # Or launch directly with Poetry
 poetry run jupyter lab src/chapter_01/

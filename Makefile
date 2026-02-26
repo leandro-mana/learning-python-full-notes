@@ -1,5 +1,10 @@
 .PHONY: help prereqs check-python check-poetry install pre-commit-install jupyter list-notebooks list-chapters clean lint lint-fix format format-check type-check check test
 
+# Shorthand: CH=01 expands to CHAPTER=chapter_01
+ifdef CH
+CHAPTER := chapter_$(CH)
+endif
+
 # Default target
 help:
 	@echo "Learning Python - Makefile Commands"
@@ -14,9 +19,9 @@ help:
 	@echo "  make check-poetry         Check/install Poetry"
 	@echo ""
 	@echo "Notebooks:"
-	@echo "  make jupyter CHAPTER=chapter_01      Open chapter notebooks in Jupyter Lab"
-	@echo "  make list-notebooks CHAPTER=chapter_01"
-	@echo "  make list-chapters"
+	@echo "  make jupyter CH=01                   Open chapter notebooks in Jupyter Lab"
+	@echo "  make list-notebooks CH=01            List notebooks in a chapter"
+	@echo "  make list-chapters                   List all available chapters"
 	@echo ""
 	@echo "Code Quality:"
 	@echo "  make lint                 Run ruff linter"
@@ -71,13 +76,13 @@ pre-commit-install:
 
 jupyter:
 	@if [ -z "$(CHAPTER)" ]; then \
-		echo "Usage: make jupyter CHAPTER=chapter_XX"; \
+		echo "Usage: make jupyter CH=01"; \
 		exit 1; \
 	fi
 	@if [ -d "src/$(CHAPTER)" ]; then \
 		poetry run jupyter lab src/$(CHAPTER)/; \
 	else \
-		echo "Chapter $(CHAPTER) not found"; \
+		echo "Chapter '$(CHAPTER)' not found"; \
 		exit 1; \
 	fi
 
@@ -123,14 +128,14 @@ list-chapters:
 
 list-notebooks:
 	@if [ -z "$(CHAPTER)" ]; then \
-		echo "Usage: make list-notebooks CHAPTER=chapter_XX"; \
+		echo "Usage: make list-notebooks CH=01"; \
 		exit 1; \
 	fi
 	@if [ -d "src/$(CHAPTER)" ]; then \
 		echo "Notebooks in $(CHAPTER):"; \
 		find src/$(CHAPTER) -name "*.ipynb" | sed 's|src/$(CHAPTER)/||' | sort; \
 	else \
-		echo "Chapter $(CHAPTER) not found"; \
+		echo "Chapter '$(CHAPTER)' not found"; \
 		exit 1; \
 	fi
 
